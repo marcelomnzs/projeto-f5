@@ -134,6 +134,7 @@ p{
 figure {
     width: 540px;
     height: 300px;
+
 }
 
 video#video-equipe{
@@ -209,7 +210,7 @@ section a#endereco{
 /* Imagens */
 
 img#OBR {
-    position: relative;
+    position: static;
     margin-left: 2cm;
 }
 
@@ -219,3 +220,16 @@ img#OBR {
 
 }
 
+img#Fll{
+    width: 540px;
+    height: 400px;
+    position: static;
+    margin-left: 18cm;
+    margin-top: -9.5cm;
+}
+
+.legenda#fll {
+    position: absolute;
+    margin-left: 23cm;
+    margin-top: -2cm;
+}
